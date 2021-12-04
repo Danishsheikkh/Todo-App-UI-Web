@@ -1,0 +1,60 @@
+.outer_container
+{
+	/*width: 60%;
+	min-height: 335px;
+	min-width: 229px;*/
+	margin-top: 100px;
+}
+.outer_heading
+{
+	text-align: center;
+}
+.fas
+{
+	background: red;
+	color: white;
+	border-radius: 50%;
+	font-size: 35px;
+}
+span
+{
+	font-size: 30px;
+	padding: 20px;
+}
+.inner_container
+{
+	text-align: center;
+	margin-top: 75px;
+	border: 1px solid red;
+	min-height: 335px;
+	min-width: 229px;
+	display: inline-block;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px lightgrey;
+	margin-left: 550px;
+	position: relative;
+    
+}
+.fa-plus
+{
+	position: absolute;
+	right: 10px;
+	bottom: 20px;
+	background: red;
+	color: white;
+	border-radius: 50%;
+	width: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+.inner_container h2
+{
+	color: red;
+	font-size: 30px;
+}
+.inner_container p 
+{
+  color: red;
+  text-decoration: line-through;
+  font-size: 30px;
+}

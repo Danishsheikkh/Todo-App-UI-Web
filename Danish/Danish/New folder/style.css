@@ -1,0 +1,50 @@
+*
+{
+	box-sizing: border-box;
+}
+.navbar a
+{
+ text-decoration: none;
+ color: red;
+ font-size: 35px;
+ margin: 30px;
+
+}
+.outer_heading
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+}
+
+.inner_container
+{
+	width: 50%;
+	display: grid;
+	grid-template-columns: repeat(3, 4fr);
+	grid-gap: 10px;
+
+}
+.card_1
+{
+	border: 1px solid red;
+	border-radius: 20px;
+	min-height: 355px;
+	min-width: 229px;
+    text-align: center;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 10px lightgrey;
+    margin: 10px;
+    padding-bottom: 0px;
+}
+.inner_container .card_1 
+{
+	color: red;
+	font-size: 25px;
+}
+ .paragraph_2
+{
+	text-decoration: line-through;
+}
